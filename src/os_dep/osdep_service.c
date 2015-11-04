@@ -21,6 +21,9 @@
 
 #define _OSDEP_SERVICE_C_
 
+#include <linux/semaphore.h>
+#define init_MUTEX(sem)         sema_init(sem, 1)
+
 #include <drv_conf.h>
 #include <osdep_service.h>
 #include <drv_types.h>

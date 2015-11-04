@@ -20,6 +20,7 @@
 #ifndef _RTW_XMIT_H_
 #define _RTW_XMIT_H_
 
+#include <linux/interrupt.h>
 #include <drv_conf.h>
 #include <osdep_service.h>
 #include <drv_types.h>
